@@ -13,17 +13,26 @@ Para este video usaremos las siguientes herramientas:
 
 ## 🔵 Pasos para generar Terrenos en 3D con MapLibre
 
-1. Primer paso: Instalación del plugin para la descarga del DSM del área de interes
-2. Segundo paso: Generar del DSM descargado un MBTiles.
-3. Tercer paso: Generar directorios o carpetas según el nivel de zoom, filas y columnas provenientes del MBTiles.
-4. Cuarto paso: Generar la visualización en 3D con Maplibre.
+1. Primer paso: Instalación del plugin para la descarga del DSM del área de interés
+2. Segundo paso: Generar el MBTiles del DSM descargado en QGIS.
+Para este procedimiento usaremos el siguiente extracto de código
 
+    ```bash
+    rio rgbify -b -10000 -i 0.1 --min-z 0 --max-z 12 -j 24 --format png RUTA_DEL_DSM_AQUI.tif output.mbtiles
+    ```
+
+3. Tercer paso: Generar directorios o carpetas según el nivel de zoom, filas y columnas provenientes del MBTiles.
+
+    ```bash
+    python mb-util output.mbtiles tiles
+    ```
+
+4. Cuarto paso: Generar la visualización en 3D con MapLibre.
 
 
 Todo el proceso desarrollado esta explicado paso a paso en el siguiente video de Youtube 🎥.
 
 [![Watch the video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/aM93Jn1uD-I?si=tnOLDjmW-TkOb3U9)
-
 
 
 ¡Enteráte más y aprender conmigo! 🔍💡 Suscríbete, activa las notificaciones 🔔 y únete a la comunidad que ama el software libre de código abierto. 🌟🌍 👇
