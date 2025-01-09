@@ -11,11 +11,12 @@ Para este video usaremos las siguientes herramientas:
   - Plugin: [JAXA Earth API Plugin](https://plugins.qgis.org/plugins/qgis-jaxa-earth-plugin-master/): API para QGIS que permite descargar datos de la Agencia Japonesa de Exploración Aeroespacial.
 - [MapLibre GL JS](https://maplibre.org/maplibre-gl-js/docs/): Librería de TypeScript que utiliza WebGL para renderizar mapas interactivos a partir de mosaicos vectoriales en el navegador.
 
-## 🔵 Pasos para generar Terrenos en 3D con MapLibre
+## 🔵 Pasos para generar una visualización en 3D con MapLibre
 
-1. Primer paso: Instalación del plugin para la descarga del DSM del área de interés
+1. Primer paso: Instalación del plugin JAXA Earth API en QGIS para la descarga del modelo digital de superficie (DSM) del área de interés
 2. Segundo paso: Generar el MBTiles del DSM descargado en QGIS.
-Para este procedimiento usaremos el siguiente extracto de código
+
+    Para este procedimiento usaremos el siguiente extracto de código 👇
 
     ```bash
     rio rgbify -b -10000 -i 0.1 --min-z 0 --max-z 12 -j 24 --format png RUTA_DEL_DSM_AQUI.tif output.mbtiles
@@ -120,7 +121,7 @@ Para este procedimiento usaremos el siguiente extracto de código
     ```
 
 
-Todo el proceso desarrollado esta explicado paso a paso en el siguiente video de Youtube 🎥.
+Todo el proceso desarrollado esta explicado a detalle paso por paso en el siguiente video de Youtube 🎥.
 
 [![Watch the video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/aM93Jn1uD-I?si=tnOLDjmW-TkOb3U9)
 
