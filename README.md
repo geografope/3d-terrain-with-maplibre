@@ -132,7 +132,7 @@ Para este video usaremos las siguientes herramientas:
 
 Todo el proceso desarrollado esta explicado a detalle paso por paso en el siguiente video de Youtube 🎥.
 
-[![Watch the video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/aM93Jn1uD-I?si=tnOLDjmW-TkOb3U9)
+[![Watch the video](https://img.youtube.com/vi/Aew1eDeLiR8/0.jpg)](https://youtu.be/Aew1eDeLiR8?si=P9sMlLUfRx1o1A3E)
 
 
 ¡Enteráte más y aprender conmigo! 🔍💡 Suscríbete, activa las notificaciones 🔔 y únete a la comunidad que ama el software libre de código abierto. 🌟🌍 👇
